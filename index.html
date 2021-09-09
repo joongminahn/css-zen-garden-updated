@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS ZEN GARDEN</title>
+  <link rel="icon" href="favicon.png" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <!-- GSAP & ScrollToPlugin-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js" integrity="sha512-1OG9UO4krPizjtz/c9iDbjCqtXznBYdJeD4ccPaYfJHzC6F1qoQ3P1bgQ3J8lgCoK5qGVCqsY4+/RKjLDzITVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- SWIPER -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
+<!-- SCROLL MAGIC -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="/js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+      <a href="/" class="logo">
+        <img src="./images/logo.png" alt="CSS zengarden logo">
+      </a>
+
+      <div class="sub-menu">
+        <ul class="menu">
+          <li>
+            <a href="javascript:void(0)">Sign In</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Next Designs</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">View All Designs</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Find a Design</a>
+          </li>
+        </ul>
+        <div class="search">
+          <input type="text" />
+          <div class="material-icons">search</div>
+        </div>
+      </div>
+      <!-- sub-menu end -->
+
+      <ul class="main-menu">
+        <li class="item">
+          <div class="item__name">
+            <a href="javascript:void(0)">View This Design’s CSS</a>
+          </div>
+          <div class="item__name">
+            <a href="javascript:void(0)">CSS Resources</a>
+          </div>
+          <div class="item__name">
+            <a href="javascript:void(0)">Submit a Design</a>
+          </div>
+          <div class="item__name">
+            <a href="javascript:void(0)">Translation</a>
+          </div>
+          <div class="item__name">
+            <a href="javascript:void(0)">FAQ</a>
+          </div>          
+          
+        </li>
+      </ul>
+
+    </div>
+<!-- inner end -->
+
+    <div class="badges">
+      <div class="badge">
+        <img src="./images/badge1.png" alt="Badge" />
+      </div>
+      <div class="badge">
+        <img src="./images/badge2.png" alt="Badge" />
+      </div>
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <section class="visual">
+    <div class="inner">
+
+      <div class="title fade-in">
+        <img src="./images/title.png" alt="CSS ZEN GARDEN" />
+        <a href="javascript:void(0)" class="btn">read more</a>
+      </div>
+      <img src="./images/github.png" alt="Github" class="logo1 image fade-in" />
+      <img src="./images/css.png" alt="CSS" class="logo2 image fade-in"/>
+      <img src="./images/html.png" alt="HTML" class="logo3 image fade-in" />
+    </div>
+    <!-- inner end -->
+  </section>
+
+  <section class="notice">
+    <div class="notice-line">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner">
+
+        <div class="inner__left">
+          <h2>notice</h2>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">2021 new webpage were released</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">HTML/CSS3 101 open soon (08.22)</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">Website creation competition (07.02-07.18)</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">2021 Webdesign trends seminar (07.08)</a>
+                 </div>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="notice-line__more">
+            <div class="material-icons">add_circle</div>
+          </a>
+        </div>
+        <div class="inner__right">
+          <h2>CSS ZEN GARDEN events</h2>
+          <div class="toggle-event">
+            <div class="material-icons">upload</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="events">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/design01.png" alt="Mid Century Modern">
+            <a href="http://www.csszengarden.com/221/" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design02.png" alt="A Robot Name Jimmy">
+            <a href="http://www.csszengarden.com/215/" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design03.png" alt="Graments">
+            <a href="http://www.csszengarden.com/220/)" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design04.png" alt="Steel">
+            <a href="http://www.csszengarden.com/219/" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design05.png" alt="Apothercary">
+            <a href="http://www.csszengarden.com/218/" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design06.png" alt="Screen Filter">
+            <a href="http://www.csszengarden.com/217/" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design07.png" alt="Fountain Kiss">
+            <a href="http://www.csszengarden.com/216/" class="btn">read more</a>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/design08.png" alt="Verde Moderna">
+            <a href="http://www.csszengarden.com/214/" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-prev">
+        <div class="material-icons">arrow_back</div>
+      </div>
+      <div class="swiper-next">
+        <div class="material-icons">arrow_forward</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PREMIUM -->
+  <section class="premium">
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <div class="inner">
+      <p class="p-01">A demonstration of what can be <br>accomplished through CSS-based design .</p>
+      <p class="p-02">Select any style sheet from the list to load <br>it into this page.</p>
+      <div class="btn-group">
+        <div class="btn btn--reverse sign-up">Sign up</div>
+        <div class="btn log-in">Log in</div>
+        <div class="btn share">Share</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENLIGHTENMENT -->
+  <section class="enlightenment scroll-spy">
+    <div class="inner">
+      <img src="./images/bulb1 1.png" alt="" class="bulb back-to-position to-right delay-0" />
+      <div class="text-group back-to-position to-left delay-1">
+      <h1 class="h1-01">The Road to Enlightenment</h1>
+      <p class="p-03">
+        Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
+        <div class="line-height01"><br/></div>We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WaSP, and the major browser creators.
+        <div class="line-height02"><br/></div>The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. 
+        Become one with the web.
+      </p>      
+    </div>
+    <!-- text-group end -->
+    </div>
+  </section>
+
+  <!--WHATISTHIS-->
+  <section class="what-is-this scroll-spy">
+    <div class="inner">
+      <img src="./images/code_illu.png" alt="" class="code back-to-position to-left delay-0">
+      <div class="text-group02 back-to-position to-right delay-1" >
+      <h1 class="h1-02">So What Is This About?</h1>
+      <p class="p-04">There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and 
+        encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will 
+        load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. 
+        Yes, really. <br/><br/>
+        CSS allows complete and total control over the style of a hypertext document. The only way this can be 
+        illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are 
+        placed in the hands of those able to create beauty from structure. Designers and coders alike have 
+        contributed to the beauty of the web; we can always push it further.
+      </p>
+    </div>
+    <!-- text-group end -->
+    </div>
+  </section>
+
+  <!--PARTICIPATION-->
+  <section class="participation scroll-spy">
+    <div class="inner">
+      <div class="text-group03 back-to-position to-left delay-0">
+        <h1 class="h1-03">Participation</h1>
+        <p class="p-05">
+          Strong visual design has always been our focus. You are modifying this page, so strong 
+          CSS skills are necessary too, but the example files are commented well enough that even 
+          CSS novices can use them as starting points. Please see the CSS Resource Guide for 
+          advanced tutorials and tips on working with CSS.<br/><br/>
+          You may modify the style sheet in any way you wish, but not the HTML. This may seem 
+          daunting at first if you’ve never worked this way before, but follow the listed links to learn 
+          more, and use the sample files as a guide.<br/><br/>
+          Download the sample HTML and CSS to work on a copy locally. Once you have completed 
+          your masterpiece (and please, don’t submit half-finished work) upload your CSS file to a 
+          web server under your control. Send us a link to an archive of that file and all associated assets, 
+          and if we choose to use it we will download it and place it on our server.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits">
+    <div class="inner">
+
+      <div class="benefits-container">
+
+      <div class="front">
+      <img src="./images/benefits.png" alt="" class="images-front" />
+      </div>
+
+      <div class="back">
+      <img src="./images/benefits--back.png" class="images-back"alt="" />
+      </div>
+    </div>
+    <!-- benefits-container end -->
+      <div class="text-group04">
+      <p class="p-06">
+        Why participate? For recognition, inspiration, and a resource we can all 
+        refer to showing people how amazing CSS really can be. This site 
+        serves as equal parts inspiration for those working on the web today, 
+        learning tool for those who will be tomorrow, and gallery of future 
+        techniques we can all look forward to.
+      </p>
+    </div>
+    <!-- text-group04 -->
+    </div>
+  </section>
+
+  <section class="requirements scroll-spy">
+    <div class="inner">
+      <div class="text-group05 back-to-position to-right delay-0">
+        <h1 class="h1-03">Requirements</h1>
+        <p class="p-07">
+          Where possible, we would like to see mostly CSS 1 & 2 usage. CSS 3 & 4 should be limited to 
+          widely-supported elements only, or strong fallbacks should be provided. The CSS Zen Garden is about 
+          functional, practical CSS and not the latest bleeding-edge tricks viewable by 2% of the browsing public. The 
+          only real requirement we have is that your CSS validates.<br/><br/>
+          Luckily, designing this way shows how well various browsers have implemented CSS by now. When sticking 
+          to the guidelines you should see fairly consistent results across most modern browsers. Due to the sheer 
+          number of user agents on the web these days — especially when you factor in mobile — pixel-perfect 
+          layouts may not be possible across every platform. That’s okay, but do test in as many as you can. Your 
+          design should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over 
+          90% of the population).<br/><br/>
+          We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material 
+          to a minimum, and try to incorporate unique and interesting visual themes to your work. We’re well past the 
+          point of needing another garden-related design.<br/><br/>
+          This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited 
+          exceptions, see submission guidelines), but we ask you release your CSS under a Creative Commons 
+          license identical to the one on this site so that others may learn from your work.
+        </p>
+      </div>
+      <!-- text-group05 end -->
+      <img src="./images/requirement01.png" alt="" class="requirement-image01 back-to-position to-right delay-1">
+      <img src="./images/requirement02.png" alt="" class="requirement-image02 back-to-position to-right delay-2">
+
+    </div>
+    <!-- inner end -->
+  </section>
+
+  <!-- THE BOOK -->
+    <section class="the-book">
+      <div class="inner">
+        <div class="text-group06 ">
+        <h1 class="h1-04">
+          By Dave Shea. Bandwidth graciously<br/> donated by mediatemple. <br/>Now available: Zen Garden, the book.
+        </h1>
+      </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="inner">
+        <div class="container01">
+          <div class="items"><a href="javascript:void(0)">HTML</a></div>
+          <div class="items"><a href="javascript:void(0)">CSS</a></div>
+          <div class="items"><a href="javascript:void(0)">A11y</a></div>
+          <div class="items"><a href="javascript:void(0)">GH</a></div>            
+        </div>
+        <h3>&copy; 2021 Jungmin Ahn. All Right Reserved</h3>
+      </div>
+    </section>
+
+    <div id="to-top">
+      <div class="material-icons">arrow_upward</div>
+    </div>
+
+</div>
+<!-- wrapper end -->
+</body>
+
+</html>
